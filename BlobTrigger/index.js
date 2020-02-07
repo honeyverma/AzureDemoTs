@@ -39,7 +39,7 @@ exports.__esModule = true;
 var blobTrigger = function (context, myBlob) {
     return __awaiter(this, void 0, void 0, function () {
         return __generator(this, function (_a) {
-            context.log("Blob trigger function processed blob \n Name:", context.bindingData.name, "\n Blob Size:", myBlob.length, "Bytes");
+            context.log("Blob trigger function processed blob honey edited \n Name:", context.bindingData.name, "\n Blob Size:", myBlob.length, "Bytes");
             return [2 /*return*/];
         });
     });
