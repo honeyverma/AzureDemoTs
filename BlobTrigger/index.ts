@@ -1,7 +1,7 @@
 import { AzureFunction, Context } from "@azure/functions"
 
 const blobTrigger: AzureFunction = async function (context: Context, myBlob: any): Promise<void> {
-    context.log("Blob trigger function processed blob honey edited \n Name:", context.bindingData.name, "\n Blob Size:", myBlob.length, "Bytes");
+    context.log("Blob trigger function processed blob honey edited2 \n Name:", context.bindingData.name, "\n Blob Size:", myBlob.length, "Bytes");
 };
 
 export default blobTrigger;
